@@ -31,4 +31,3 @@ network.compile(optimizer='adam',
 network.fit(x, y, epochs=epoch)
 
 test_loss, test_acc = network.evaluate(x_val, y_val)
-print("准确率为 %.4f %%" % test_acc * 100)
